@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="@sweetalert2/theme-borderless/borderless.css">
 
   <title>TP Tecnología de la Informacion</title>
 </head>
@@ -38,7 +37,7 @@
     $(function () {
       $("#nav-placeholder").load("navbar.html");
     });
-    
+
     Swal.fire({
       icon: 'question',
       title: '¿Qué sabemos sobre Computación distribuida?',
@@ -53,7 +52,7 @@
   </script>
 
   <!-- Div -->
-  <div id="wrapper">
+  <div id="wrapper" class="fade-in">
 
     <!-- Encabezado -->
     <header id="header">
@@ -83,7 +82,7 @@
           aplicaciones, que generó las bases para migrar a estas nuevas tecnologías, pero no fue
           hasta que los precios de las LANs bajaron, cuando se desarrolló la computación
           cliente/servidor.
-          </p>
+        </p>
         <p>A finales de la década de 1960 se crea ARPANET. Esta agencia fue la espina dorsal de
           Internet hasta 1990, tras finalizar la transición al protocolo TCP/IP, iniciada en 1983. En
           los primeros años de 1970, nace el correo electrónico ARPANET, el que es considerado
@@ -101,6 +100,19 @@
 
 
     </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+      <section class="split contact">
+          <section class="text-center">
+              <h3>Repositorio GitHub</h3>
+              <ul class="icons alt">
+                  <li style="transform: translateX(-2.85rem);"><a href="https://github.com/zaapii/TPTecnologiaInformacion/tree/master" class="icon brands alt"><i class="fab fa-github-square fa-4x"></i><span class="label">GitHub</span></a></li>
+              </ul>
+          </section>
+      </section>
+  </footer>
 
   </div>
 

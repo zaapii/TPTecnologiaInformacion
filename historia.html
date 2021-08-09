@@ -2,100 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Access-Control-Allow-Origin" content="*">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/main.css" />
-    
-    <title>TP Tecnología de la Informacion</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <title>TP Tecnología de la Informacion</title>
 </head>
 
 <body class="is-preload">
 
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
-    
-    </div>
-    
-    
-    <!--end of Navigation bar-->
-    
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-    $(function(){
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+
+  <!--end of Navigation bar-->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    $(function () {
       $("#nav-placeholder").load("navbar.html");
     });
-
+    
     Swal.fire({
-  icon: 'question',
-  title: '¿Qué sabemos sobre Computación distribuida?',
-  text: 'Repasemos un poco de su historia...',
-  showCancelButton: false,
-  focusConfirm: false,
-  confirmButtonColor: '#0E1A32',
-  confirmButtonText:
-    '<i style="color:whitesmoke; transform:translateY(-0.5rem);" class="fa fa-thumbs-up"></i>',
-  confirmButtonAriaLabel: 'Ok',
-})
-    </script>
+      icon: 'question',
+      title: '¿Qué sabemos sobre Computación distribuida?',
+      text: 'Repasemos un poco...',
+      showCancelButton: false,
+      focusConfirm: false,
+      confirmButtonColor: '#0E1A32',
+      confirmButtonText:
+        '<i style="color:whitesmoke; transform:translateY(-0.5rem);" class="fa fa-thumbs-up"></i>',
+      confirmButtonAriaLabel: 'Ok',
+    })
+  </script>
 
-    <!-- Wrapper -->
-			<div id="wrapper">
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="historia.html" class="logo">Historia</a>
-					</header>
+    <!-- Header -->
+    <header id="header">
+      <a href="historia.html" class="logo">Historia</a>
+    </header>
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Main -->
+    <div id="main">
 
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<span class="date">28 Jul. 2021</span>
-									<h1>Historia de la Computación Distribuida</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<div class="image main"><img style="max-width: 20%; transform: translateX(22.5rem);" src="https://image.flaticon.com/icons/png/512/977/977297.png" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
-							</section>
+      <!-- Post -->
+      <section class="post">
+        <header class="major">
+          <span class="date">28 Jul. 2021</span>
+          <h1>Historia de la Computación Distribuida</h1>
+          <p>¿Como surge la Computación Distribuida y cuales fueron sus predecesores?</p>
+        </header>
+        <div class="image main"><img style="max-width: 20%; transform: translateX(22.5rem);"
+            src="https://image.flaticon.com/icons/png/512/977/977297.png" alt="" /></div>
+        <p> El concepto de transmisión de mensajes se originó a finales de la década de los 60. A
+          pesar de que el multiprocesador de propósito general y las redes de computadoras no
+          existían en ese momento, surgió la idea de organizar un sistema operativo como una
+          colección de procesos de comunicación donde cada proceso tiene una función
+          específica, en la cual, no pueden interferir otros. De esta forma, en los años 70, nacieron
+          los primeros sistemas distribuidos generalizados, las redes de área local (LAN) como
+          Ethernet.2.
+          Este suceso generó inmediatamente una gran cantidad de lenguajes, algoritmos y
+          aplicaciones, que generó las bases para migrar a estas nuevas tecnologías, pero no fue
+          hasta que los precios de las LANs bajaron, cuando se desarrolló la computación
+          cliente/servidor.
+          </p>
+        <p>A finales de la década de 1960 se crea ARPANET. Esta agencia fue la espina dorsal de
+          Internet hasta 1990, tras finalizar la transición al protocolo TCP/IP, iniciada en 1983. En
+          los primeros años de 1970, nace el correo electrónico ARPANET, el que es considerado
+          como la primera aplicación distribuida a gran escala.
+          En este último tiempo se han realizado investigaciones en materia de algoritmos
+          distribuidos y se ha avanzado considerablemente en la madurez del campo,
+          especialmente durante los años ochenta. Particularmente se han desarrollado modelos
+          matemáticos que permiten la aplicación de los resultados y métodos a clases más
+          amplias de entornos distribuidos.
+          Existen varias revistas y conferencias anuales que se especializan en los resultados
+          relativos a los algoritmos distribuidos y la computación distribuida. La primera conferencia
+          sobre la materia fue el simposio ‘Principles of Distributed Computing’ en 1982.</p>
+      </section>
 
-                            
-
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
 
-    </body>
+    </div>
+
+  </div>
+
+  <!-- SCRIPTS JAVASCRIPT -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
 
 
 </html>
 
 <style>
-    .estilonavbar {
-        color: #ccae76;
-        background-image: linear-gradient(to right, #0E1A32 0%, #257a92 100%);
-        background-color: #141f33;
-    }
+  .estilonavbar {
+    color: #ccae76;
+    background-image: linear-gradient(to right, #0E1A32 0%, #257a92 100%);
+    background-color: #141f33;
+  }
 </style>

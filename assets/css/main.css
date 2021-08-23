@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -72,8 +66,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
-
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -113,7 +105,6 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
 
 	html {
 		font-size: 16pt;
@@ -321,8 +312,6 @@ input, select, textarea {
 	hr {
 		border-bottom-color: #eeeeee;
 	}
-
-/* Row */
 
 	.row {
 		display: flex;
@@ -2035,7 +2024,7 @@ input, select, textarea {
 
 		}
 
-/* Box */
+/* Cajas */
 
 	.box {
 		border: solid 2px;
@@ -2059,7 +2048,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Button */
+/* Botones */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2237,7 +2226,7 @@ input, select, textarea {
 				background-color: #ccae76;
 			}
 
-/* Form */
+/* Formularios */
 
 	form {
 		margin: 0 0 2rem 0;
@@ -2549,7 +2538,7 @@ input, select, textarea {
 		color: #909498 !important;
 	}
 
-/* Icon */
+/* Iconos */
 
 	.icon {
 		text-decoration: none;
@@ -2586,7 +2575,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
+/* Imagenes */
 
 	.image {
 		border: 0;
@@ -2676,7 +2665,7 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
-/* Actions */
+/* Acciones */
 
 	ul.actions {
 		display: -moz-flex;
@@ -2834,7 +2823,7 @@ input, select, textarea {
 			font-size: 1rem;
 		}
 
-/* List */
+/* Listas */
 
 	ol {
 		list-style: decimal;
@@ -2901,7 +2890,7 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #ccae76;
 	}
 
-/* Section/Article */
+/* Articulos/Posts */
 
 	section.special, article.special {
 		text-align: center;
@@ -3000,7 +2989,7 @@ input, select, textarea {
 		border-top-color: #eeeeee;
 	}
 
-/* Table */
+/* Tablas */
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -3099,7 +3088,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Pagination */
+/* Paginacion */
 
 	.pagination {
 		display: -moz-inline-flex;
@@ -3215,7 +3204,7 @@ input, select, textarea {
 		color: #eeeeee;
 	}
 
-/* Wrapper */
+/* Principal */
 
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
@@ -3281,7 +3270,7 @@ input, select, textarea {
 
 		}
 
-/* Intro */
+/* Introduccion */
 
 	#intro {
 		color: #ffffff;
@@ -3490,7 +3479,7 @@ input, select, textarea {
 
 		}
 
-/* Header */
+/* Encabezado */
 
 	#header {
 		color: #ffffff;
@@ -3603,7 +3592,7 @@ input, select, textarea {
 
 		}
 
-/* Nav */
+/* Barra de Navegacion */
 
 	#nav {
 		color: #ffffff;
@@ -3753,7 +3742,7 @@ input, select, textarea {
 
 		}
 
-/* Main */
+/* Principal */
 
 	#main {
 		background-color: #ffffff;
